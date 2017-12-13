@@ -1,0 +1,283 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body a {
+  color: #1ba3d9;
+}
+
+body *:focus {
+  outline: none;
+  outline-style: none;
+}
+
+body .paging-slider .swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #cf2226 !important;
+}
+
+body .paging-slider .swiper-pagination-bullet:hover, body .paging-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+body .hover, body section.feature-news .beau-features .feature-news li:hover, section.feature-news .beau-features .feature-news body li:hover {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.background-dark, section.feature-albums {
+  background: #f0f0f0;
+}
+
+.background-light, section.next-tour, section.gallery {
+  background: #fff;
+}
+
+.detail-album .beau-listview li .jp-controls {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+section .description h2 {
+  font-family: "Playfair Display", serif;
+}
+
+section .description p a {
+  color: #cf2226;
+}
+
+section.top-slider .beau-player {
+  font-family: "Roboto", sans-serif;
+}
+
+section.navigation {
+  background: #fff;
+  border-color: #fff;
+}
+
+section.navigation ul#main-nav li.active {
+  background: #cf2226;
+}
+
+section.navigation ul#main-nav li:hover {
+  background: transparent;
+  border-color: #959595;
+}
+
+section.navigation ul.social li a:hover {
+  color: #cf2226;
+}
+
+section.feature-albums .list-albums .list-feature li .album-icon .disk {
+  background: url(../images/disk-formal.png) no-repeat center center;
+}
+
+section.feature-albums .list-albums .list-feature li .name p {
+  color: #959595;
+}
+
+section.next-tour .next-tours .next-tours-items .row {
+  border-top: 1px solid #deddcf;
+}
+
+section.next-tour .next-tours .next-tours-items .row:hover {
+  border-color: #cf2226;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li {
+  font-family: "Roboto", sans-serif;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li span {
+  font-family: "Roboto", sans-serif;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.active {
+  background: #cf2226;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.cancel {
+  background: #deddcf;
+  color: #fff;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.soldout {
+  background: #fff;
+}
+
+section.next-tour .next-tours .view-more {
+  color: #cf2226;
+}
+
+section.next-tour .next-event .next-event-in li p {
+  font-family: "Roboto", sans-serif;
+}
+
+section.next-tour .next-event .next-event-in li:first-child h3 {
+  font-family: "Playfair Display", serif;
+}
+
+section.parallax .container .parallax-middle h3 span {
+  background: #cf2226;
+}
+
+section.parallax .container .parallax-middle p {
+  font-family: "Roboto", sans-serif;
+}
+
+section.parallax .container .parallax-middle p strong {
+  font-weight: bold;
+}
+
+section.parallax .container .parallax-middle p a {
+  color: #cf2226;
+}
+
+section.parallax.video-parallax {
+  background-image: url(../images/video-formal.png);
+}
+
+section.parallax.twitter-parallax {
+  background-image: url(../images/twitter-formal.png);
+}
+
+section.parallax.twitter-parallax .name-twitter .logo-twitter {
+  color: #cf2226;
+}
+
+section.parallax.twitter-parallax .twitter-message .message {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+section.feature-news {
+  background: #f0f0f0;
+}
+
+section.feature-news .beau-features .feature-news li {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+section.feature-news .beau-features .feature-news li span .beau-arrow {
+  width: 0px;
+  height: 0px;
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-right: 50px solid #fff;
+}
+
+section.feature-news .beau-features .feature-news li span.time-up, section.feature-news .beau-features .feature-news li span p {
+  font-family: "Roboto", sans-serif;
+}
+
+section.gallery .gallery-category li {
+  border-color: #deddcf;
+}
+
+section.gallery .gallery-category li:hover, section.gallery .gallery-category li.active {
+  border-color: #df7529;
+}
+
+section.gallery .contain-gallery .swiper-container .swiper-slide {
+  border-color: #deddcf;
+}
+
+section.gallery .contain-gallery .swiper-container .swiper-slide:hover {
+  border-color: #df7529;
+}
+
+section.our-member {
+  background: #fff;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper {
+  border-color: #3b3b3b;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .avatar ul li a:hover {
+  color: #cf2226;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info h3 {
+  color: #252525;
+  font-family: "Roboto", sans-serif;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #959595;
+}
+
+section.contactform {
+  background: #f0f0f0;
+  border-color: #ccc;
+}
+
+section.contactform .beau-form .beau-contact li input, section.contactform .beau-form .beau-contact li textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+section.contactform .beau-form .beau-contact li input:focus, section.contactform .beau-form .beau-contact li textarea:focus {
+  border-color: #cf2226;
+}
+
+section.contactform .beau-form .beau-contact li button {
+  font-family: "Roboto", sans-serif;
+  background: #cf2226;
+}
+
+footer .top-footer .footer-widget {
+  margin-top: 60px;
+}
+
+footer .top-footer .footer-widget h3 {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+footer .top-footer .footer-widget ul {
+  float: left;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+
+footer .top-footer .footer-widget ul li {
+  line-height: 30px;
+  color: #959595;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .top-footer .footer-widget ul li a {
+  color: #959595;
+}
+
+footer .top-footer .footer-widget ul li a:hover {
+  color: #cf2226;
+}
+
+footer .top-footer .footer-widget.instagram p a {
+  color: #cf2226;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .bottom-footer {
+  font-family: "Roboto", sans-serif;
+}
+
+footer .bottom-footer a:hover {
+  color: #cf2226;
+}

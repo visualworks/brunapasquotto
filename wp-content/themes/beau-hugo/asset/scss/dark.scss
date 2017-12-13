@@ -1,0 +1,280 @@
+@import 'bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+body{
+	font-family: $Ro;
+	font-size: $body-size;
+	overflow-x:hidden;
+	position: relative;
+	@include font-smoothing;
+	a{
+		color: #1ba3d9;
+	}
+	*{
+		&:focus{
+			outline: none;
+			outline-style: none;
+		}
+	}
+	#beau-go-top{
+		background-color: #000;
+		color:#fff;
+		box-shadow: 1px 1px 10px rgba(#000, 0.3);
+		&:hover{
+			box-shadow: 1px 1px 10px rgba(#000, 0.8);
+		}
+	}
+	.control-slider{
+		color: #fff;
+		&.swiper-button-disabled{
+			color: #000;
+		}
+	}
+	.paging-slider{
+		.swiper-pagination-bullet{
+			opacity: 0.5;
+			background-color: #fff!important;
+			&:hover, &.swiper-pagination-bullet-active{
+				opacity: 1!important;
+			}
+		}
+	}
+	.hover{
+		box-shadow:1px 2px 30px rgba(#000, 0.5);
+	}
+}
+//Css for section and body
+.background-dark{
+	background:url(../images/bg-dark.png) no-repeat;
+	// background-size: auto 100%;
+	background-size: cover;
+}
+section{
+	background-color: #252525;
+	.description{
+		h2{
+			color:#fff;
+		}
+	}
+	&.top-slider{
+
+	}
+	//For navigation
+	&.navigation{
+		border-color: #000;
+		ul{
+			&#main-nav{
+				li{
+					&:hover{
+						background: transparent;
+						border-color: #959595;
+						a{
+							color:#fff;
+						}
+					}
+					a{
+						color: #fff;
+					}
+				}
+			}
+			&.social{
+				li{
+					a{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	//For feature Music Albums
+	&.feature-albums{
+		@extend .background-dark;
+		.list-albums{
+			.list-feature{
+				li{
+					.name{
+						h3{
+							color: #fff;
+						}
+						p{
+							color: #959595;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.next-tour{
+		background-color: #252525;
+		border-top: 1px solid #000;
+		.next-tours{
+			.next-tours-items{
+				.row{
+					border-top: 1px solid #3b3b3b;
+					&:hover{
+						border-color: #000;
+					}
+					ul{
+						li{
+							p{
+								color: #fff;
+							}
+							span{
+								color: #959595;
+							}
+							.beau-button{
+								&.cancel{
+									background: #3b3b3b;
+									color: #292929;
+								}
+								&.soldout{
+									background: #252525;
+									border:2px solid #fff;
+									color: #fff;
+								}
+								&.comming{
+									font-style: italic;
+									color: #959595;
+									text-transform: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.next-event{
+			.next-event-in{
+				li{
+					h3{
+						color: #fff;
+					}
+				}
+			}
+		}
+
+	}
+	&.parallax{
+		&.video-parallax{
+			background-image: url(../images/dark-video.png);
+		}
+		&.twitter-parallax{
+			background-image: url(../images/dark-twitter.png);
+		}
+	}
+	&.feature-news{
+		@extend .background-dark;
+		.beau-features{
+			.feature-news{
+				li{
+					background: #252525;
+					span{
+						color: #fff;
+						.beau-arrow{
+							@include arrow(left,50px,#252525);
+						}
+						h3{
+							color: #fff;
+							a{
+								color: #fff;
+							}
+						}
+						&.time-up,p{
+							color: #959595;
+						}
+					}
+					&:hover{
+						@extend .hover;
+					}
+
+				}
+			}
+		}
+	}
+
+	//Css for gallery section
+	&.gallery{
+		.gallery-category{
+			li{
+				color: #959595;
+				&:hover, &.active{
+					border-color: $text-active;
+				}
+			}
+		}
+		.contain-gallery{
+			.swiper-container{
+				.swiper-slide{
+					border-color: #3b3b3b;
+				}
+			}
+		}
+	}
+	//Css for our member section
+	&.our-member{
+		@extend .background-dark;
+		.contain-member{
+			.swiper-container{
+				.swiper-wrapper{
+					border-color: #3b3b3b;
+					.swiper-slide{
+						.info{
+							h3{
+								color: #fff;
+							}
+							p{
+								font-style: italic;
+								color: #959595;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.contactform{
+		background: #252525;
+		border-color: #000;
+		.beau-form{
+			.beau-contact{
+				li{
+					&:before{
+						color: #fff;
+					}
+					input, textarea{
+						border: 2px solid #fff;
+						&:focus{
+							border-color: #fff;
+						}
+						@include placeholder {
+						    color: #fff;
+						}
+					}
+					input{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+footer{
+	.top-footer{
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+	}
+	@extend .background-dark;
+	.bottom-footer{
+		background: #252525;
+	}
+}

@@ -1,0 +1,190 @@
+$player_height: 350px;
+.book-player-video{
+    float: left;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    position: relative;
+    overflow: hidden;
+    @include RP(S){
+        height: $player_height;
+    }
+    .title-video{
+        @include font-size(48px);
+        font-weight: 300;
+        float: left;
+        width: 100%;
+        // line-height: 30px;
+        margin-bottom: 40px;
+        @include RP(M){
+            @include font-size(30px);
+            margin-bottom: 20px;
+        }
+    }
+    .video-pause{
+        display: none;
+        position: absolute;
+        @include center(xy);
+        background: rgba(#fff, 0.2);
+        width:90px;
+        height: 90px;
+        border-radius: 90px;
+        z-index: -1;
+        cursor: pointer;
+        text-align: center;
+        &:before{
+            content:"\f04c";
+            font-family: $Aw;
+            @include font-size(40px);
+            color: #fff;
+            line-height: 90px;
+        }
+    }
+    &.active-video{
+        .video-pause{
+            display: block;
+            opacity:0;
+            @include transition;
+            z-index: 9999;
+        }
+        &:hover{
+            .video-pause{
+                opacity:1;
+            }
+        }
+    }
+
+    #player-page{
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        @include center(xy);
+        z-index: 1;
+        @include RP(S){
+            height: $player_height;
+        }
+        iframe{
+            &#youtube-video, &#vimeo-video{
+                position: absolute;
+                @include center(xy);
+                width: 100%;
+                min-height: 810px;
+                height: auto;
+                @include RP(S){
+                    min-height: $player_height;
+                }
+            }
+        }
+        video{
+            position: absolute;
+            @include center(xy);
+            width: 99%;
+            // min-height: 100%;
+            height: auto;
+        }
+    }
+    .img-cover-video{
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        @include center(xy);
+        z-index: 2;
+        // display: none;
+        @include RP(S){
+            height: $player_height;
+        }
+        img{
+            width: 100%;
+            min-height: 100%;
+            position: absolute;
+            @include center(xy);
+            @include RP(S){
+                width: auto;
+                height: $player_height;
+            }
+        }
+    }
+    .container{
+        position: relative;
+        height: 700px;
+        @include RP(S){
+            height: $player_height;
+        }
+    }
+    .desc-book-player{
+        @include font-size(18px);
+        line-height: 30px;
+        font-weight: 300;
+        color: #fff;
+        float: left;
+        height: auto;
+        position: relative;
+        // left: 0px;
+        text-align: left;
+        box-sizing: border-box;
+        // padding-right: 30px;
+        z-index: 3;
+        @include RP(S){
+            @include font-size(20px);
+            line-height: 25px;
+            padding-right: 0px;
+            text-align: center;
+            top: 130px;
+        }
+        @include RP(MD){
+            @include font-size(15px);
+        }
+        &.animated{
+            top: 35%;
+        }
+        // display: none;
+    }
+    .player-image{
+        box-sizing:border-box;
+        padding-left: 15px;
+        position: relative;
+        z-index: 4;
+        overflow: hidden;
+        // display: none;
+        @include center(y);
+        @include RP(S){
+            padding-left: 0px;
+            // top: 5px;
+            // bottom: $player_height
+            img{
+                display: none;
+            }
+        }
+        @include RP(MD){
+            img{
+                position: relative;
+                @include center(x);
+            }
+        }
+        .button-play{
+
+            background: rgba(#fff, 0.7);
+            border-radius: 50px;
+            width:71px;
+            height: 71px;
+            position: absolute;
+            @include center(xy);
+            cursor: pointer;
+            z-index: 5;
+            text-align: center;
+            &:before{
+                content:"\f04b";
+                font-family: $Aw;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                line-height: 71px;
+                color: #fff;
+                @include font-size(18px);
+
+            }
+
+        }
+    }
+
+}

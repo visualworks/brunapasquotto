@@ -1,0 +1,372 @@
+@import 'bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+$main-color: #8c6239;
+
+body{
+	font-family: $Ro-s;
+	font-size: $body-size;
+	overflow-x:hidden;
+	position: relative;
+	@include font-smoothing;
+	a{
+		color: #1ba3d9;
+	}
+	*{
+		&:focus{
+			outline: none;
+			outline-style: none;
+		}
+	}
+	#beau-go-top{
+		background-color: #fff;
+		color:$main-color;
+		box-shadow: 1px 1px 10px rgba(#000, 0.3);
+		&:hover{
+			box-shadow: 1px 1px 10px rgba(#000, 0.8);
+		}
+	}
+	.control-slider{
+		color: #252525;
+		&.swiper-button-disabled{
+			color: #959595;
+		}
+	}
+	.paging-slider{
+		.swiper-pagination-bullet{
+			opacity: 0.5;
+			background-color: $main-color!important;
+			&:hover, &.swiper-pagination-bullet-active{
+				opacity: 1!important;
+			}
+		}
+	}
+	.hover{
+		box-shadow:1px 2px 30px rgba(#000, 0.5);
+	}
+}
+.main-bg{
+	background: $main-color;
+}
+//Css for section and body
+.background-image{
+	background:url(../images/bg-classic.png) no-repeat;
+	// background-size: auto 100%;
+	background-size: cover;
+}
+.gallery .classic-gallery.contain-gallery .swiper-slide p {
+    font-family: 'Myriad Pro';
+}
+section{
+	background-color: #fff;
+	.description{
+		h2{
+			color:$main-color;
+			font-family: $Ro-s;
+			font-weight: 300;
+		}
+	}
+	&.top-slider{
+
+	}
+	//For navigation
+	&.navigation{
+		ul{
+			&#main-nav{
+				li{
+					&.active{
+						background:$main-color;
+					}
+					&:hover{
+						background: transparent;
+						a{
+							color: #252525;
+						}
+					}
+					a{
+						color: #252525;
+					}
+				}
+			}
+			&.social{
+				li{
+					a{
+						color: #252525;
+					}
+				}
+			}
+		}
+	}
+	//For feature Music Albums
+	&.feature-albums{
+		@extend .background-image;
+		.list-albums{
+			.list-feature{
+				li{
+					.name{
+						h3{
+							color: $main-color;
+						}
+						p{
+							color: #959595;
+						}
+					}
+					.album-icon{
+						.disk{
+							background: url(../images/disk-classic.png);
+						}
+					}
+				}
+			}
+		}
+	}
+	&.next-tour{
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+		.next-tours{
+			.next-tours-items{
+				.row{
+					border-top: 1px solid #e5e5e5;
+					&:hover{
+						border-color: #000;
+					}
+					ul{
+						li{
+							p{
+								color: #252525;
+							}
+							span{
+								color: #959595;
+							}
+							img{
+								float: left;
+								margin-right: $base-line*0.5;
+								width: 40px;
+								height: 40px;
+							}
+							.beau-button{
+								font-weight: 700;
+								&.active{
+									background: #8c6239;
+								}
+								&.cancel{
+									background: #e5e5e5;
+									color: #fff;
+								}
+								&.soldout{
+									background: #fff;
+									border:2px solid #252525;
+									color: #252525;
+								}
+								&.comming{
+									font-style: italic;
+									color: #959595;
+									text-transform: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.view-more{
+				color: $main-color;
+			}
+		}
+		.next-event{
+			.next-event-in{
+				li{
+					h3{
+						color: $main-color;
+						font-family: $Ro-s;
+						font-weight: 300;
+					}
+				}
+			}
+		}
+
+	}
+	&.parallax{
+		.container{
+			.parallax-middle{
+				h3{
+					span{
+						background: $main-color;
+					}
+				}
+			}
+		}
+		&.video-parallax{
+			background-image: url(../images/classic-video.png);
+		}
+		&.twitter-parallax{
+			background-image: url(../images/classic-twitter.png);
+			.name-twitter{
+				.logo-twitter{
+					color: #8c6239;
+				}
+			}
+		}
+	}
+	&.feature-news{
+		@extend .background-image;
+		.beau-features{
+			.feature-news{
+				li{
+					span{
+						color: $main-color;
+						.beau-arrow{
+						}
+						h3{
+							color: $main-color;
+							a{
+								color: $main-color;
+							}
+						}
+						&.time-up,p{
+							color: #959595;
+						}
+					}
+					&:hover{
+						@extend .hover;
+					}
+
+				}
+			}
+		}
+	}
+
+	//Css for gallery section
+	&.gallery{
+		.gallery-category{
+			li{
+				color: #959595;
+				&:hover, &.active{
+					border-color: $main-color;
+				}
+			}
+		}
+		#classic-gallery{
+			&.contain-gallery{
+				.swiper-slide{
+					border-color: #e5e5e5;
+					width: 373px;
+					overflow: hidden;
+					position: relative;
+					img{
+						max-width: 371px!important;
+						width: 99%;
+					}
+					.fa-play{
+						margin-left: 4px;
+					}
+					p{
+						font-family: 'Myriad Pro';
+						font-weight: bold;
+						position: absolute;
+						bottom: 5px;
+						left: 5px;
+						padding: 3px 10px;
+						margin: 0px;
+						display: inline-block;
+						background: rgba(#000, 0.5);
+						color: #fff;
+						text-transform: uppercase;
+						@include transition('fast');
+					}
+					&:hover, &.active{
+						p{
+							opacity: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	//Css for our member section
+	&.our-member{
+		@extend .background-image;
+		.contain-member{
+			.swiper-container{
+				.swiper-wrapper{
+					border-color: #3b3b3b;
+					.swiper-slide{
+						.info{
+							h3{
+								color: $main-color;
+							}
+							p{
+								font-style: italic;
+								color: #959595;
+							}
+						}
+						.avatar{
+							ul{
+								li{
+									a{
+										&:hover{
+											color: #959595;
+										}
+									}
+								}
+							}
+						}
+					}
+
+				}
+			}
+		}
+	}
+	&.contactform{
+		background: #fff;
+		border-color: #ccc;
+		.beau-form{
+			.beau-contact{
+				li{
+					&:before{
+						color: #252525;
+					}
+					input, textarea{
+						border: 2px solid #252525;
+						&:focus{
+							border-color: $main-color;
+						}
+						@include placeholder {
+						    color: #252525;
+						}
+					}
+					input{
+						color: #252525;
+					}
+					button{
+						background: $main-color;
+					}
+				}
+			}
+		}
+	}
+}
+footer{
+	.top-footer{
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+		.footer-widget{
+			h3{
+				color: $main-color;
+				font-weight: 400;
+			}
+		}
+	}
+	background-color: #252525;
+	.bottom-footer{
+		background: #fff;
+	}
+}

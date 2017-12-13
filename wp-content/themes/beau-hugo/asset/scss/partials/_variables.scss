@@ -1,0 +1,32 @@
+//Setting
+$import : true;
+$content-size: 1170px;
+$default_padding: 0px;
+$player-height: 65px;
+$nav-height: 80px;
+
+
+// colors
+
+$text-color: #000; // base color
+$text-active: #1ba3d9;  //Color active
+$border-color: #ccc;
+
+// fonts
+$Aw: 'FontAwesome';
+$Ro: 'Roboto', sans-serif;
+$Ro-s: 'Roboto Slab', serif;
+$Title-font: 'Roboto Condensed', sans-serif;
+$Formal-font: 'Playfair Display', serif;
+$Ag: 'Conv_againts';
+//Font size
+$body-size: 14px;
+
+//header height
+$base-line: 30px;
+
+// z-index
+$bg-zindex: 0;
+$content-zindex: 1;
+$nav-zindex: 2;
+$header-zindex: 3;

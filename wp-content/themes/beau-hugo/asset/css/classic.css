@@ -1,0 +1,323 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body a {
+  color: #1ba3d9;
+}
+
+body *:focus {
+  outline: none;
+  outline-style: none;
+}
+
+body #beau-go-top {
+  background-color: #fff;
+  color: #8c6239;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+body #beau-go-top:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+body .control-slider {
+  color: #252525;
+}
+
+body .control-slider.swiper-button-disabled {
+  color: #959595;
+}
+
+body .paging-slider .swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #8c6239 !important;
+}
+
+body .paging-slider .swiper-pagination-bullet:hover, body .paging-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+body .hover, body section.feature-news .beau-features .feature-news li:hover, section.feature-news .beau-features .feature-news body li:hover {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.main-bg {
+  background: #8c6239;
+}
+
+.background-image, section.feature-albums, section.feature-news, section.our-member {
+  background: url(../images/bg-classic.png) no-repeat;
+  background-size: cover;
+}
+
+.gallery .classic-gallery.contain-gallery .swiper-slide p {
+  font-family: 'Myriad Pro';
+}
+
+section {
+  background-color: #fff;
+}
+
+section .description h2 {
+  color: #8c6239;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+section.navigation ul#main-nav li.active {
+  background: #8c6239;
+}
+
+section.navigation ul#main-nav li:hover {
+  background: transparent;
+}
+
+section.navigation ul#main-nav li:hover a {
+  color: #252525;
+}
+
+section.navigation ul#main-nav li a {
+  color: #252525;
+}
+
+section.navigation ul.social li a {
+  color: #252525;
+}
+
+section.feature-albums .list-albums .list-feature li .name h3 {
+  color: #8c6239;
+}
+
+section.feature-albums .list-albums .list-feature li .name p {
+  color: #959595;
+}
+
+section.feature-albums .list-albums .list-feature li .album-icon .disk {
+  background: url(../images/disk-classic.png);
+}
+
+section.next-tour {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+section.next-tour .next-tours .next-tours-items .row {
+  border-top: 1px solid #e5e5e5;
+}
+
+section.next-tour .next-tours .next-tours-items .row:hover {
+  border-color: #000;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li p {
+  color: #252525;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li span {
+  color: #959595;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li img {
+  float: left;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button {
+  font-weight: 700;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.active {
+  background: #8c6239;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.cancel {
+  background: #e5e5e5;
+  color: #fff;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.soldout {
+  background: #fff;
+  border: 2px solid #252525;
+  color: #252525;
+}
+
+section.next-tour .next-tours .next-tours-items .row ul li .beau-button.comming {
+  font-style: italic;
+  color: #959595;
+  text-transform: none;
+}
+
+section.next-tour .next-tours .view-more {
+  color: #8c6239;
+}
+
+section.next-tour .next-event .next-event-in li h3 {
+  color: #8c6239;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+section.parallax .container .parallax-middle h3 span {
+  background: #8c6239;
+}
+
+section.parallax.video-parallax {
+  background-image: url(../images/classic-video.png);
+}
+
+section.parallax.twitter-parallax {
+  background-image: url(../images/classic-twitter.png);
+}
+
+section.parallax.twitter-parallax .name-twitter .logo-twitter {
+  color: #8c6239;
+}
+
+section.feature-news .beau-features .feature-news li span {
+  color: #8c6239;
+}
+
+section.feature-news .beau-features .feature-news li span h3 {
+  color: #8c6239;
+}
+
+section.feature-news .beau-features .feature-news li span h3 a {
+  color: #8c6239;
+}
+
+section.feature-news .beau-features .feature-news li span.time-up, section.feature-news .beau-features .feature-news li span p {
+  color: #959595;
+}
+
+section.gallery .gallery-category li {
+  color: #959595;
+}
+
+section.gallery .gallery-category li:hover, section.gallery .gallery-category li.active {
+  border-color: #8c6239;
+}
+
+section.gallery #classic-gallery.contain-gallery .swiper-slide {
+  border-color: #e5e5e5;
+  width: 373px;
+  overflow: hidden;
+  position: relative;
+}
+
+section.gallery #classic-gallery.contain-gallery .swiper-slide img {
+  max-width: 371px !important;
+  width: 99%;
+}
+
+section.gallery #classic-gallery.contain-gallery .swiper-slide .fa-play {
+  margin-left: 4px;
+}
+
+section.gallery #classic-gallery.contain-gallery .swiper-slide p {
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 3px 10px;
+  margin: 0px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+section.gallery #classic-gallery.contain-gallery .swiper-slide:hover p, section.gallery #classic-gallery.contain-gallery .swiper-slide.active p {
+  opacity: 0;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper {
+  border-color: #3b3b3b;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info h3 {
+  color: #8c6239;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info p {
+  font-style: italic;
+  color: #959595;
+}
+
+section.our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .avatar ul li a:hover {
+  color: #959595;
+}
+
+section.contactform {
+  background: #fff;
+  border-color: #ccc;
+}
+
+section.contactform .beau-form .beau-contact li:before {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li input, section.contactform .beau-form .beau-contact li textarea {
+  border: 2px solid #252525;
+}
+
+section.contactform .beau-form .beau-contact li input:focus, section.contactform .beau-form .beau-contact li textarea:focus {
+  border-color: #8c6239;
+}
+
+section.contactform .beau-form .beau-contact li input::-webkit-input-placeholder, section.contactform .beau-form .beau-contact li textarea::-webkit-input-placeholder {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li input::-moz-placeholder, section.contactform .beau-form .beau-contact li textarea::-moz-placeholder {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li input:-moz-placeholder, section.contactform .beau-form .beau-contact li textarea:-moz-placeholder {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li input:-ms-input-placeholder, section.contactform .beau-form .beau-contact li textarea:-ms-input-placeholder {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li input {
+  color: #252525;
+}
+
+section.contactform .beau-form .beau-contact li button {
+  background: #8c6239;
+}
+
+footer {
+  background-color: #252525;
+}
+
+footer .top-footer {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+
+footer .top-footer .footer-widget h3 {
+  color: #8c6239;
+  font-weight: 400;
+}
+
+footer .bottom-footer {
+  background: #fff;
+}

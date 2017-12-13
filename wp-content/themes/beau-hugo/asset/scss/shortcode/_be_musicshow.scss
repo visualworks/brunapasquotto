@@ -1,0 +1,115 @@
+.music-show{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.list-horizontal{
+    padding-bottom: 0px;
+}
+.music-show{
+    float: left;
+    // width: 100%;
+    .music-picture{
+        float: left;
+        box-sizing:border-box;
+        padding-right: 15px;
+        @include RP(MD){
+            img{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+    .event-info{
+        box-sizing: border-box;
+        padding-left: 15px;
+        .title-box{
+        //     font-family: $Ro;
+        //     @include font-size(48px);
+        //     font-weight: 300;
+        //     margin-bottom: 10px;
+            @include RP(MD){
+                margin-bottom: 0px;
+            }
+        }
+        .event-address-date{
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid rgba(#000, .1);
+            padding-bottom: 35px;
+            margin-bottom: 50px;
+            @include RP(MD){
+                padding-bottom:20px;
+                margin-bottom: 20px;
+            }
+            span{
+                float: left;
+                margin-right: 30px;
+                color:#959595;
+                a{
+                    color: #959595;
+                    &:hover{
+                        text-decoration: underline!important;
+                    }
+                }
+            }
+        }
+    }
+    .price-buy{
+        float: left;
+        margin-bottom: 40px;
+        width: 100%;
+        line-height: 40px;
+        @include RP(MD){
+            margin-bottom: 10px;
+        }
+        .beau-button{
+            @include RP(M){
+                min-width: 150px;
+            }
+        }
+        .price{
+            font-weight: bold;
+            @include font-size(24px);
+        }
+    }
+    .content-show{
+        color: #666;
+        line-height: 30px;
+    }
+    .contact-show{
+        float: left;
+        width: 100%;
+        span{
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            &.title-contact{
+                margin-bottom: 30px;
+                text-transform: uppercase;
+                color: #666;
+                font-weight: bold;
+                @include RP(MD){
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+.horizontal-item{
+    box-sizing:border-box;
+    @include RP(S){
+        width: 100%!important;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    &>ul{
+        @include RP(MD){
+            width:100%;
+            overflow: hidden;
+        }
+    }
+}

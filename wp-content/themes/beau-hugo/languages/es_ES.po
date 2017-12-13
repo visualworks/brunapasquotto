@@ -1,0 +1,708 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hugo translation for Spanis\n"
+"POT-Creation-Date: 2016-01-05 22:52+0700\n"
+"PO-Revision-Date: 2016-01-05 23:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: BeauTheme <support@beautheme.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:8 woocommerce/single-product-reviews.php:23
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:25 selekon/contact-full.php:24 selekon/contact-half.php:24
+msgid "Submit"
+msgstr "Enviar"
+
+#: comments.php:26 woocommerce/single-product-reviews.php:43
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: comments.php:29 woocommerce/single-product-reviews.php:46
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: comments.php:31 woocommerce/single-product-reviews.php:48
+msgid "Name"
+msgstr "Nombre"
+
+#: comments.php:33 selekon/contact-full.php:21 selekon/contact-half.php:21
+#: woocommerce/single-product-reviews.php:52
+msgid "Message *"
+msgstr "Mensaje *"
+
+#: content-none.php:3
+msgid "Nothing Found"
+msgstr "Sin resultados"
+
+#: content-none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para su primer publicación? <a href=\"%1$s\">Inicie aquí</a>."
+
+#: content-none.php:12 selekon/section-postcatstandard.php:106
+#: selekon/section-postcattags.php:158
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Disculpe, pero no pudimos encontrar nada con los términos de búsqueda "
+"ingresados. Por favor, intente nuevamente con diferentes palabras"
+
+#: content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no pudimos encontrar lo que busca.  Por favor intente usar "
+"nuestro buscador."
+
+#: footer.php:4
+msgid "Pages"
+msgstr "Páginas"
+
+#: footer.php:6
+msgid "Edit "
+msgstr "Editar"
+
+#: functions.php:75
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: functions.php:152
+msgid "Footer sidebar"
+msgstr "Sidebar de pie de página"
+
+#: functions.php:153
+msgid "This is footer sidebar "
+msgstr "Esta es la barra lateral de pie de página"
+
+#: functions.php:165
+#, php-format
+msgid "Footer sidebar %s"
+msgstr ""
+
+#: functions.php:180
+#, php-format
+msgid "Right sidebar %s"
+msgstr ""
+
+#: functions.php:217
+msgid "PREV"
+msgstr "ANTERIOR"
+
+#: functions.php:218
+msgid "NEXT"
+msgstr "SIGUIENTE"
+
+#: includes/comment-walker.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Te comentario está en espera de aprobación."
+
+#: libs/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Instalar los Plugin Necesarios"
+
+#: libs/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Instalar Plugins"
+
+#: libs/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin %s"
+
+#: libs/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Algo ha ido mal con el API del plugin"
+
+#: libs/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Volver a la Instalación de los Plugin Necesarios"
+
+#: libs/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Volver a escritorio"
+
+#: libs/class-tgm-plugin-activation.php:399
+#: libs/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "El plugin se ha activado correctamente."
+
+#: libs/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr "El siguiente plugin ha sido activado exitosamente:"
+
+#: libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se realizo ninguna acción.  El plugin %1$s ya esta activo."
+
+#: libs/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin no activado. Se necesita una versión superior de %s para este tema. "
+"Por favor, actualiza el plugin."
+
+#: libs/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins fueron instalados y activados exitosamente. %1$s"
+
+#: libs/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Omitir aviso"
+
+#: libs/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Por favor, póngase en contacto con el administrador del sitio para solicitar "
+"ayuda."
+
+#: libs/class-tgm-plugin-activation.php:521
+#: selekon/section-albumdetail.php:139 vc_templates/be_detailalbum.php:138
+#: vc_templates/be_slidersection.php:153
+msgid "Update Required"
+msgstr "Actualización Necesaria"
+
+#: libs/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Ponga la variable de configuración parent_slug a cambio."
+
+#: libs/class-tgm-plugin-activation.php:828
+#: libs/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Volver al Dashboard"
+
+#: libs/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"El paquete remoto de plugin no contiene una carpeta con el slug deseado y el "
+"cambio de nombre no funciono."
+
+#: libs/class-tgm-plugin-activation.php:935
+#: libs/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Por favor, póngase en contacto con el proveedor del plugin y sugiérale que "
+"empaquete su plugin de acuerdo a la guía de WordPress."
+
+#: libs/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"El paquete remoto del plugin está compuesto de más de un archivo, pero los "
+"archivos no están empaquetados en una carpeta."
+
+#: libs/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Requerido"
+
+#: libs/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: libs/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "Depósito de WordPress"
+
+#: libs/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: libs/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Pre-empacado"
+
+#: libs/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Versión instalada:"
+
+#: libs/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Instalado pero no activado"
+
+#: libs/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Activa"
+
+#: libs/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "La Actualización Requerida No Está Disponible"
+
+#: libs/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "REquiere Actualización"
+
+#: libs/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#: libs/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: libs/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Versión mínima requerida:"
+
+#: libs/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: libs/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+"No hay plugins para instalar, actualizar o activar. <a href=“%1$s”>Volver al "
+"Escritorio</a>"
+
+#: libs/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Plugin"
+
+#: libs/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Fuente"
+
+#: libs/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "Tipo"
+
+#: libs/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Versión"
+
+#: libs/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Estatus"
+
+#: libs/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Actualizar mensaje del autor del plugin:"
+
+#: libs/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Instalar"
+
+#: libs/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Actualizar"
+
+#: libs/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Activar"
+
+#: libs/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"No hay plugin seleccionados para ser instalados.  No se tomo acción alguna."
+
+#: libs/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"No hay plugin seleccionados para ser actualizados.  No se tomo acción alguna."
+
+#: libs/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "No hay plugins disponibles para instalar en este momento."
+
+#: libs/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "No hay plugins disponibles para actualizar en este momento."
+
+#: libs/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"No hay plugin seleccionados para ser activados.  No se tomo acción alguna."
+
+#: libs/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "No hay plugins disponibles para activar en este momento."
+
+#: libs/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "La activación del plugin ha fallado."
+
+#: libs/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualización Plugin %1$s (%2$d/%3$d)"
+
+#: libs/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Se produjo un error durante la instalación de %1$s: <strong>%2$s</strong>."
+
+#: libs/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s ha fallado."
+
+#: libs/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"El proceso de instalación y activación  ha iniciado.  Este proceso puede "
+"tomar algún tiempo en algunos servidores, por favor, tenga paciencia."
+
+#: libs/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado correctamente."
+
+#: libs/class-tgm-plugin-activation.php:3370
+#: libs/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Mostrar detalles"
+
+#: libs/class-tgm-plugin-activation.php:3370
+#: libs/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Ocultar Detalles"
+
+#: libs/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Todas las actualizaciones e instalaciones han sido completadas."
+
+#: libs/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: libs/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El proceso de instalación ha iniciado.  Este proceso puede tomar algún "
+"tiempo en algunos servidores, por favor, tenga paciencia."
+
+#: libs/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s se ha instalado correctamente."
+
+#: libs/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Todos las instalaciones se han completado."
+
+#: libs/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando plugin %1$s (%2$d/%3$d)"
+
+#: selekon/contact-full.php:15
+msgid "Success & Error message"
+msgstr "Mensaje de Éxito y Error"
+
+#: selekon/contact-full.php:18 selekon/contact-half.php:18
+msgid "Email *"
+msgstr "Correo *"
+
+#: selekon/contact-full.php:19 selekon/contact-half.php:19
+msgid "Name *"
+msgstr "Nombre *"
+
+#: selekon/footer-content.php:42 selekon/footer-single.php:20
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+#: selekon/footer-content.php:42 selekon/footer-single.php:20
+msgid "Designed by"
+msgstr "Diseñado por"
+
+#: selekon/gallery-popup.php:47 vc_templates/be_playavideo.php:27
+msgid "Close"
+msgstr "Cerrar"
+
+#: selekon/gallery-rectangle.php:29 selekon/gallery-square.php:32
+msgid "Photos"
+msgstr "Fotos"
+
+#: selekon/gallery-rectangle.php:30 selekon/gallery-square.php:33
+msgid "Videos"
+msgstr "Videos"
+
+#: selekon/post-standard.php:70 selekon/section-postcatstandard.php:92
+msgid "Read more"
+msgstr "Leer más"
+
+#: selekon/product-single.php:10 selekon/solike-product.php:33
+#: template-shop.php:39 woocommerce/archive-product.php:39
+msgid "Add to cart"
+msgstr "Ver producto"
+
+#: selekon/product-single.php:36 selekon/solike-product.php:42
+#: template-shop.php:57 woocommerce/archive-product.php:57
+msgid "Sale!"
+msgstr "¡Venta!"
+
+#: selekon/product-single.php:56
+msgid "Instock"
+msgstr "En stock"
+
+#: selekon/product-single.php:59
+msgid "Outstock"
+msgstr "Agotado"
+
+#: selekon/product-single.php:67
+msgid "Qty"
+msgstr "Cantidad"
+
+#: selekon/product-ticket.php:39
+msgid "Contact info"
+msgstr "Información de Contacto"
+
+#: selekon/product-ticket.php:80
+msgid "Video trailer"
+msgstr "Previsualización"
+
+#: selekon/product-ticket.php:90 selekon/section-postcattags.php:13
+msgid "News"
+msgstr "Noticias"
+
+#: selekon/product-ticket.php:124 sidebar.php:43
+msgid "Read more >>"
+msgstr "Leer más"
+
+#: selekon/section-404-1.php:4 selekon/section-404.php:4
+msgid "Oops! Page not found"
+msgstr "¡Oh! página no encontrada"
+
+#: selekon/section-404-1.php:6 selekon/section-404.php:5
+msgid ""
+"Sorry but the page you are loking for does not exist, have been removed or "
+"name changed."
+msgstr ""
+"Lo sentimos, pero la página que está buscando el que no existe, se han "
+"eliminado o nombre cambiado."
+
+#: selekon/section-404-1.php:6 selekon/section-404.php:5
+msgid "Go back"
+msgstr "Volver a la portada"
+
+#: selekon/section-404-1.php:6 selekon/section-404.php:5
+msgid "or enter the key wirds to search please!"
+msgstr "o introduzca las wirds clave para buscar, por favor!"
+
+#: selekon/section-404-1.php:11 selekon/section-404.php:12
+#: selekon/section-postcatstandard.php:109 selekon/section-postcattags.php:161
+msgid "Search something..."
+msgstr "Búsqueda…"
+
+#: selekon/section-albumdetail.php:52 vc_templates/be_detailalbum.php:53
+msgid "by"
+msgstr "por"
+
+#: selekon/section-albumdetail.php:56 vc_templates/be_detailalbum.php:57
+msgid "Buy"
+msgstr "Comprar"
+
+#: selekon/section-albumdetail.php:140 vc_templates/be_detailalbum.php:139
+#: vc_templates/be_slidersection.php:154
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your <a href=\"http://get.adobe.com/flashplayer/\" target="
+"\"_blank\">Flash plugin</a>."
+msgstr ""
+"Para la reproducción multimedia necesitará actualizar su navegador a una "
+"versión reciente o actualizar <a href=“http://get.adobe.com/flashplayer/“ "
+"target=“_blank”>Adobe Flash player</a>."
+
+#: selekon/section-albumlist.php:4
+msgid "Albums"
+msgstr "Álbumes"
+
+#: selekon/section-albumlist.php:34 selekon/section-relatedalbum.php:56
+#: vc_templates/be_albumcat.php:90 vc_templates/be_singlefeature.php:45
+msgid "App Store"
+msgstr "App Store"
+
+#: selekon/section-albumlist.php:39 selekon/section-relatedalbum.php:61
+#: vc_templates/be_albumcat.php:97 vc_templates/be_singlefeature.php:50
+msgid "Google Play"
+msgstr "Redes Sociales"
+
+#: selekon/section-postcatstandard.php:30
+msgid "Search with keywords:"
+msgstr "Buscar palabras clave"
+
+#: selekon/section-postcatstandard.php:65 single-post.php:35
+msgid "Your browser does not support the video tag."
+msgstr "Tu navegador no es compatible con la etiqueta de vídeo."
+
+#: selekon/section-postcatstandard.php:101 selekon/section-postcattags.php:153
+msgid "No post display!"
+msgstr "Sin visualización posterior!"
+
+#: selekon/section-postcatstandard.php:105 selekon/section-postcattags.php:157
+msgid "<h2>Nothing Found</h2>"
+msgstr "Sin resultados"
+
+#: selekon/section-relatedalbum.php:37
+msgid "Related Albums"
+msgstr "Álbumes Relacionadas"
+
+#: selekon/share-tags-full.php:4 selekon/tags-share.php:3 sidebar.php:77
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: selekon/share-tags-full.php:17 selekon/tags-share.php:14
+msgid "Share to Pinterest"
+msgstr "Compartir en Pinterest"
+
+#: selekon/share-tags-full.php:18 selekon/tags-share.php:15
+msgid "Share to Twitter"
+msgstr "Compartir con Twitter"
+
+#: selekon/share-tags-full.php:19 selekon/tags-share.php:16
+msgid "Share to Facebook"
+msgstr "Compartir en Facebook"
+
+#: selekon/share-tags-full.php:20 selekon/tags-share.php:17
+msgid "Share to Google Plus"
+msgstr "Compartir con Google Plus"
+
+#: selekon/share-tags-full.php:21
+msgid "Share to LinkedIn"
+msgstr "Compartir a LinkedIn"
+
+#: selekon/solike-product.php:24
+msgid "You may so like"
+msgstr "Es posible que lo desea"
+
+#: selekon/ticket-horizontal.php:34 selekon/ticket-list.php:33
+#: selekon/ticket-slider.php:34 single-product.php:27
+msgid "Buy ticket"
+msgstr "Comprar Boletos"
+
+#: selekon/ticket-horizontal.php:44 selekon/ticket-list.php:43
+#: selekon/ticket-slider.php:44
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: selekon/ticket-horizontal.php:47 selekon/ticket-list.php:46
+#: selekon/ticket-slider.php:47
+msgid "Sold out"
+msgstr "Agotado"
+
+#: selekon/ticket-horizontal.php:72 selekon/ticket-slider.php:75
+msgid "Ticket price"
+msgstr "Precio de la Reserva"
+
+#: selekon/ticket-list.php:102
+msgid "in"
+msgstr "pulgadas"
+
+#: selekon/ticket-list.php:106 vc_templates/be_commingsoon.php:30
+#: vc_templates/be_coundown.php:19
+msgid "Days"
+msgstr "Días"
+
+#: selekon/ticket-list.php:110 vc_templates/be_commingsoon.php:35
+#: vc_templates/be_coundown.php:23
+msgid "Hours"
+msgstr "Horas"
+
+#: selekon/ticket-list.php:114 vc_templates/be_commingsoon.php:40
+#: vc_templates/be_coundown.php:27
+msgid "Minutes"
+msgstr "Minutos"
+
+#: selekon/ticket-list.php:118 vc_templates/be_commingsoon.php:45
+#: vc_templates/be_coundown.php:31
+msgid "Seconds"
+msgstr "Segundos"
+
+#: sidebar.php:7
+msgid "Recent posts"
+msgstr "Artículos recientes"
+
+#: sidebar.php:51
+msgid "Categories"
+msgstr "Categorias"
+
+#: vc_templates/be_commingsoon.php:63
+msgid "Your email address"
+msgstr "Su correo electrónico"
+
+#: vc_templates/be_form.php:24
+msgid "Your email has been sent successfully"
+msgstr "Su email ha sido enviado con éxito"
+
+#: vc_templates/be_instagram.php:27
+msgid "No image found"
+msgstr "No se encontró la imagen"
+
+#: vc_templates/be_musicshow.php:12
+msgid "Buy Ticket"
+msgstr "Comprar Entrada"
+
+#: vc_templates/be_musicshow.php:42
+msgid "Price"
+msgstr "Precio"
+
+#: vc_templates/be_musicshow.php:52
+msgid "Contact to booking"
+msgstr "Contacto con la reserva"
+
+#: vc_templates/be_nexttours.php:14
+msgid "Next Event In"
+msgstr "Nuevo Concierto en"
+
+#: vc_templates/be_slidersection.php:13
+msgid ""
+"<center>Error: maybe you not active require plugin please active it follow "
+"this <a href=\"/wp-admin/themes.php?page=install-required-plugins\">link</"
+"a></center>"
+msgstr ""
+"<center> Error: tal vez usted no está activo requiere el plugin favor activa "
+"que siga este <a href=\"/wp-admin/themes.php?page=install-required-plugins"
+"\">enlace</a> </center>"
+
+#: vc_templates/be_slidersection.php:73
+msgid "Current song name"
+msgstr "Nombre de la canción actual"
+
+#: vc_templates/be_slidersection.php:74
+msgid "Current article name"
+msgstr "Nombre del artículo actual"
+
+#: vc_templates/be_video.php:32
+msgid ""
+"I'm sorry; your browser doesn't support HTML5 video in WebM with VP8 or MP4 "
+"with H.264."
+msgstr ""
+"Lo siento; su navegador no soporta vídeo HTML5 en WebM VP8 con o MP4 con "
+"H.264."
+
+#: woocommerce/single-product-reviews.php:63
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Solo los usuarios inscritos que hayan comprado este producto pueden dejar "
+"una reseña."

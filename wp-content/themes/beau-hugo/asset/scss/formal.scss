@@ -1,0 +1,358 @@
+@import 'bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+$leter-font: 'Playfair Display', serif;
+body{
+	font-family: $leter-font;
+	font-size: $body-size;
+	overflow-x:hidden;
+	position: relative;
+	@include font-smoothing;
+	a{
+		color: #1ba3d9;
+	}
+	*{
+		&:focus{
+			outline: none;
+			outline-style: none;
+		}
+	}
+	.paging-slider{
+		.swiper-pagination-bullet{
+			opacity: 0.5;
+			background-color: #cf2226!important;
+			&:hover, &.swiper-pagination-bullet-active{
+				opacity: 1;
+			}
+		}
+	}
+	.hover{
+		box-shadow:1px 2px 30px rgba(#000, 0.5);
+	}
+}
+//Css for section and body
+.background-dark{
+	background: #f0f0f0;
+}
+.background-light{
+	background: #fff;
+}
+.detail-album .beau-listview li .jp-controls {
+    background: rgba(#fff, .1);
+}
+section{
+	.description{
+		h2{
+			font-family: $leter-font;
+		}
+		p{
+			a{
+				color: #cf2226;
+			}
+		}
+	}
+	&.top-slider{
+		.beau-player{
+			font-family: $Ro;
+		}
+	}
+	//For navigation
+	&.navigation{
+		background: #fff;
+		border-color: #fff;
+		ul{
+			&#main-nav{
+				li{
+					&.active{
+						background: #cf2226;
+					}
+					&:hover{
+						background: transparent;
+						border-color: #959595;
+					}
+				}
+			}
+			&.social{
+				li{
+					a{
+						&:hover{
+							color:#cf2226;
+						}
+					}
+				}
+			}
+		}
+	}
+	//For feature Music Albums
+	&.feature-albums{
+		@extend .background-dark;
+		.list-albums{
+			.list-feature{
+				li{
+					.album-icon{
+						.disk{
+							background: url(../images/disk-formal.png) no-repeat center center;
+						}
+					}
+					.name{
+						h3{
+							// color: #fff;
+						}
+						p{
+							color: #959595;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.next-tour{
+		@extend .background-light;
+		// background: #fff;
+		.next-tours{
+			.next-tours-items{
+				.row{
+					border-top: 1px solid #deddcf;
+					&:hover{
+						border-color: #cf2226;
+					}
+					ul{
+						li{
+							font-family: $Ro;
+							span{
+								font-family: $Ro;
+							}
+							.beau-button{
+								&.active{
+									background: #cf2226;
+								}
+								&.cancel{
+									background: #deddcf;
+									color: #fff;
+								}
+								&.soldout{
+									background: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+			.view-more{
+				color:#cf2226;
+			}
+		}
+		.next-event{
+			.next-event-in{
+				li{
+					p{
+						font-family: $Ro;
+					}
+					&:first-child{
+						h3{
+							font-family: $leter-font;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	&.parallax{
+		.container{
+			.parallax-middle{
+				h3{
+					span{
+						background: #cf2226;
+					}
+				}
+				p{
+					font-family: $Ro;
+					strong{
+						font-weight: bold;
+					}
+					a{
+						color: #cf2226;
+					}
+				}
+			}
+		}
+		&.video-parallax{
+			background-image: url(../images/video-formal.png);
+		}
+		&.twitter-parallax{
+			background-image: url(../images/twitter-formal.png);
+			.name-twitter{
+				.logo-twitter{
+					color: #cf2226;
+				}
+			}
+			.twitter-message{
+				.message{
+					font-family: $Formal-font;
+					font-style: italic;
+				}
+			}
+		}
+	}
+	&.feature-news{
+		background: #f0f0f0;
+		.beau-features{
+			.feature-news{
+				li{
+					background: #fff;
+					font-family: $Ro;
+					span{
+						.beau-arrow{
+							@include arrow(left,50px,#fff);
+						}
+						&.time-up,p{
+							font-family: $Ro;
+						}
+					}
+					&:hover{
+						@extend .hover;
+					}
+
+				}
+			}
+		}
+	}
+
+	//Css for gallery section
+	&.gallery{
+		@extend .background-light;
+		.gallery-category{
+			li{
+				border-color: #deddcf;
+				&:hover, &.active{
+					border-color: #df7529;
+				}
+			}
+		}
+		.contain-gallery{
+			.swiper-container{
+				.swiper-slide{
+					border-color: #deddcf;
+					&:hover{
+						border-color: #df7529;
+					}
+				}
+			}
+		}
+	}
+	//Css for our member section
+	&.our-member{
+		background: #fff;
+		.contain-member{
+			.swiper-container{
+				.swiper-wrapper{
+					border-color: #3b3b3b;
+					.swiper-slide{
+						.avatar{
+							ul{
+								li{
+									a{
+										&:hover{
+											color: #cf2226;
+										}
+									}
+								}
+							}
+						}
+						.info{
+							h3{
+								color: #252525;
+								font-family: $Ro;
+							}
+							p{
+								font-family: $Ro;
+								font-style: italic;
+								color: #959595;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.contactform{
+		background: #f0f0f0;
+		border-color: #ccc;
+		.beau-form{
+			.beau-contact{
+				li{
+					input, textarea{
+						font-family: $Ro;
+						&:focus{
+							border-color: #cf2226;
+						}
+					}
+					button{
+						font-family: $Ro;
+						background: #cf2226;
+					}
+				}
+			}
+		}
+	}
+}
+footer{
+	.top-footer{
+		.footer-widget{
+			margin-top: $base-line*2;
+			h3{
+				font-weight: bold;
+				font-family: $Ro;
+				margin-top: 0;
+				text-transform: uppercase;
+				line-height: $base-line;
+				margin-bottom: $base-line;
+			}
+			ul{
+				float: left;
+				padding-left: 12px;
+				margin-bottom: 0;
+				li{
+					line-height: $base-line;
+					color: #959595;
+					font-family: $Ro;
+					a{
+						color: #959595;
+						&:hover{
+							color: #cf2226;
+						}
+					}
+				}
+			}
+			&.instagram{
+
+				p{
+					a{
+						color: #cf2226;
+						font-family: $Ro;
+					}
+				}
+			}
+		}
+	}
+	.bottom-footer{
+		// background: #fff;
+		font-family: $Ro;
+		a{
+			&:hover{
+				color: #cf2226;
+			}
+		}
+	}
+}

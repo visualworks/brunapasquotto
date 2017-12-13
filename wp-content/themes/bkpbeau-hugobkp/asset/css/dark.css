@@ -1,0 +1,212 @@
+/* --------------------------------
+
+Dark style
+Restyle css defautl follow dark style
+
+-------------------------------- */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+  body a {
+    color: #1ba3d9; }
+
+  body *:focus {
+    outline: none;
+    outline-style: none; }
+
+.detail-album .beau-listview li .jp-controls {
+    background: rgba(255,255,255, .1);
+}
+
+/*Css for go-top button*/
+#beau-go-top {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
+
+  #beau-go-top:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8); }
+
+
+/*Css for control slider*/
+.control-slider {
+  color: #fff; }
+
+  .control-slider.swiper-button-disabled {
+    color: #000; }
+
+.paging-slider .swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #fff !important; }
+
+  .paging-slider .swiper-pagination-bullet:hover, .paging-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1 !important; }
+
+.hover, .feature-news .beau-features .feature-list li:hover {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.5); }
+
+
+/*Css for background footer and define background*/
+.background-dark, .detail-album, footer {
+  background: url(../images/bg-dark.png) no-repeat;
+  background-size: cover; }
+
+
+/*Css for modal*/
+.modal-content {
+  background: #252525; }
+
+
+/*Navigation of page*/
+.navigation {
+  border-color: #000;
+  background: #252525; }
+
+  .navigation ul#main-nav li:hover {
+    background: transparent;
+    border-color: #959595; }
+
+    .navigation ul#main-nav li:hover a {
+      color: #fff !important; }
+
+  .navigation ul#main-nav li a {
+    color: #fff; }
+
+    .navigation ul#main-nav li a:hover {
+      color: #fff; }
+
+  .navigation ul#main-nav li.menu-item-has-children:after {
+    background: #fff; }
+
+  .navigation ul#main-nav li.menu-item-has-children:hover a {
+    color: #fff !important; }
+
+  .navigation ul.social li a {
+    color: #fff; }
+
+
+/*Style list album of page*/
+.list-albums .list-feature li .name h3 {
+  color: #fff; }
+.list-albums .list-feature li .name p {
+  color: #959595; }
+
+.next-tour .next-tours .next-tours-items .row, #ajax-load-more .next-tours .next-tours-items .row {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+  .next-tour .next-tours .next-tours-items .row:hover, #ajax-load-more .next-tours .next-tours-items .row:hover {
+    border-color: #fff; }
+
+  .next-tour .next-tours .next-tours-items .row ul li p, #ajax-load-more .next-tours .next-tours-items .row ul li p {
+    color: #fff; }
+
+  .next-tour .next-tours .next-tours-items .row ul li span, #ajax-load-more .next-tours .next-tours-items .row ul li span {
+    color: #959595; }
+.next-tour .beau-button.cancel, .next-tour .beau-button.btn-cancel, #ajax-load-more .beau-button.cancel, #ajax-load-more .beau-button.btn-cancel {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #252525 !important; }
+.next-tour .beau-button.btn-soldout, #ajax-load-more .beau-button.btn-soldout {
+  background: transparent !important;
+  border: 2px solid #fff !important;
+  color: #fff !important; }
+
+  .next-tour .beau-button.btn-soldout:hover, #ajax-load-more .beau-button.btn-soldout:hover {
+    color: #fff; }
+.next-tour .beau-button.btn-comming, #ajax-load-more .beau-button.btn-comming {
+  font-style: italic;
+  color: #959595;
+  text-transform: none; }
+.next-tour .next-event .next-event-in li h3, #ajax-load-more .next-event .next-event-in li h3 {
+  color: #fff; }
+
+
+/*Feature news and background style on home*/
+.feature-news .beau-features .feature-list li {
+  background: #252525; }
+
+  .feature-news .beau-features .feature-list li span {
+    color: #fff; }
+
+    .feature-news .beau-features .feature-list li span .beau-arrow {
+      width: 0px;
+      height: 0px;
+      border-bottom: 50px solid transparent;
+      border-top: 50px solid transparent;
+      border-right: 50px solid #252525; }
+
+    .feature-news .beau-features .feature-list li span .hugo-title-news {
+      color: #fff; }
+
+  .feature-news .beau-features .feature-list li .time-up, .feature-news .beau-features .feature-list li .name {
+    color: #959595; }
+
+.gallery .gallery-category li {
+  color: #959595; }
+
+  .gallery .gallery-category li:hover, .gallery .gallery-category li.active {
+    border-color: #1ba3d9; }
+.gallery .swiper-container .swiper-slide {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+.our-member .contain-member .swiper-container .swiper-wrapper {
+  border-color: #3b3b3b; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info h3 {
+    color: #fff; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info p {
+    font-style: italic;
+    color: #959595; }
+
+
+/*Css for contact form on dark style*/
+.contactform {
+  border-color: #000; }
+
+  .contactform .beau-form .beau-contact li:before {
+    color: #fff; }
+
+  .contactform .beau-form .beau-contact li input, .contactform .beau-form .beau-contact li textarea {
+    border: 2px solid #fff; }
+
+    .contactform .beau-form .beau-contact li input::-webkit-input-placeholder, .contactform .beau-form .beau-contact li textarea::-webkit-input-placeholder {
+      color: #fff; }
+
+    .contactform .beau-form .beau-contact li input::-moz-placeholder, .contactform .beau-form .beau-contact li textarea::-moz-placeholder {
+      color: #fff; }
+
+    .contactform .beau-form .beau-contact li input:-moz-placeholder, .contactform .beau-form .beau-contact li textarea:-moz-placeholder {
+      color: #fff; }
+
+    .contactform .beau-form .beau-contact li input:-ms-input-placeholder, .contactform .beau-form .beau-contact li textarea:-ms-input-placeholder {
+      color: #fff; }
+
+    .contactform .beau-form .beau-contact li input:focus, .contactform .beau-form .beau-contact li textarea:focus {
+      border-color: #1ba3d9; }
+
+  .contactform .beau-form .beau-contact li input {
+    color: #fff; }
+
+/*Change color of detail album*/
+.detail-album {
+  color: #fff; }
+
+
+/*Related albums on detail album*/
+.hugo-related-albums {
+  border-color: #000 !important;
+  background: #252525;
+  color: #fff; }
+
+
+/*Chage footer color and border*/
+footer .top-footer {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000; }
+footer .bottom-footer {
+  background: #252525; }

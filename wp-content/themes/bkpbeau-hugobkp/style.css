@@ -1,0 +1,50 @@
+/*
+Theme Name: Hugo
+Theme URI: http://themeforest.net/item/hugo-music-artist-singers-bands-wordpress-/11582780?ref=Beautheme
+Author: BeauTheme
+Author URI: http://beautheme.com/
+Description: Hugo theme that the main theme for Hugo band, and, .
+Version: 2.0.1
+License:  GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: hugo
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, theme-options
+Copyright: (c) 2015 BeauTheme.
+*/
+.sticky{
+	border: 1px solid #000!important;
+}
+.sticky:hover{
+	border: 1px solid red!important;
+}
+.gallery-caption{
+	margin-top:40px;
+}
+.screen-reader-text{
+
+}
+.bypostauthor{}
+.alignright{}
+.alignleft{
+	float: left;
+	margin: 15px;
+}
+.aligncenter{}
+.gallery-caption, .aligncenter, .bypostauthor, .aligncenter{
+	margin-top:40px;
+}
+.edit-link{
+	text-align: center;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nothing-found{
+	display: block;
+	margin-bottom: 30px;
+}
+.mejs-container, .mejs-container *{
+	max-width: 780px!important;
+	max-height: 440px!important;
+}

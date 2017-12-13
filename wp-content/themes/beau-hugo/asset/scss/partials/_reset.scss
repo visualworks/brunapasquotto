@@ -1,0 +1,114 @@
+/*Reset vituar composer default css*/
+.vc_row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.vc_row,.vc_col-xs-1, .vc_col-sm-1, .vc_col-md-1, .vc_col-lg-1, .vc_col-xs-2, .vc_col-sm-2, .vc_col-md-2, .vc_col-lg-2, .vc_col-xs-3, .vc_col-sm-3, .vc_col-md-3, .vc_col-lg-3, .vc_col-xs-4, .vc_col-sm-4, .vc_col-md-4, .vc_col-lg-4, .vc_col-xs-5, .vc_col-sm-5, .vc_col-md-5, .vc_col-lg-5, .vc_col-xs-6, .vc_col-sm-6, .vc_col-md-6, .vc_col-lg-6, .vc_col-xs-7, .vc_col-sm-7, .vc_col-md-7, .vc_col-lg-7, .vc_col-xs-8, .vc_col-sm-8, .vc_col-md-8, .vc_col-lg-8, .vc_col-xs-9, .vc_col-sm-9, .vc_col-md-9, .vc_col-lg-9, .vc_col-xs-10, .vc_col-sm-10, .vc_col-md-10, .vc_col-lg-10, .vc_col-xs-11, .vc_col-sm-11, .vc_col-md-11, .vc_col-lg-11, .vc_col-xs-12, .vc_col-sm-12, .vc_col-md-12, .vc_col-lg-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-2 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-3 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-5 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-7 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-8 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-9 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-10 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-11 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.vc_non_responsive .vc_row .vc_col-sm-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.stars {
+    display: none !important;
+}
+
+input.input-text {
+    padding: 5px;
+}
+
+.woocommerce #respond input#submit {
+    position: relative !important;
+    margin-top: 30px !important;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .woocommerce #respond input#submit {
+        margin-bottom: 20px;
+    }
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    @extend .gradient;
+    @extend .beau-button;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+
+}
+
+.wpb_text_column {
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}

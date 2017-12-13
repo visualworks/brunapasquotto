@@ -1,0 +1,31 @@
+/* --------------------------------
+
+Primary style
+*/
+.description h2 {
+  text-transform: uppercase;
+}
+
+.vc_icon_element-inner:hover * {
+  color: #cdaf87 !important;
+}
+
+.detail-album .beau-listview li .jp-controls {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.next-tour .next-tours .next-tours-items .row ul li p a, .next-tour .next-tours #ajax-load-more .row ul li p a, #ajax-load-more .next-tours .next-tours-items .row ul li p a, #ajax-load-more .next-tours #ajax-load-more .row ul li p a, .next-tour .next-tours .next-tours-items .row ul li p, .next-tour .next-tours #ajax-load-more .row ul li p, #ajax-load-more .next-tours .next-tours-items .row ul li p, #ajax-load-more .next-tours #ajax-load-more .row ul li p {
+  color: #fff;
+}
+
+.beau-form .beau-contact li input[type="text"], .beau-form .beau-contact li textarea, .form-comment .beau-contact li input[type="text"], .form-comment .beau-contact li textarea {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.gradient, .products-list-view .product-item:hover, .submit, .button-active, .button-gradient, .beau-tags ul:first-child li a:hover, .beau-form .beau-contact li button, .form-comment .beau-contact li button, .comment-form #submit, .beautheme-form.search-form form button, .jp-audio .jp-volume-controls .jp-volume-bar .jp-volume-bar-value, .jp-audio .jp-progress .jp-seek-bar .jp-play-bar, .navigation ul#main-nav li.active, .navigation ul#main-nav li.current-menu-item, .detail-album .button-buy, .next-tour .next-tours .beau-button.active, .next-tour .next-tours .active.submit, .next-tour .next-tours .active.button-active, .next-tour .next-tours .active.b-button, .next-tour .next-tours .active.button-border, .next-tour .next-tours .active.button-gradient, .next-tour .next-tours .beau-form .beau-contact li button.active, .beau-form .beau-contact li .next-tour .next-tours button.active, .next-tour .next-tours .form-comment .beau-contact li button.active, .form-comment .beau-contact li .next-tour .next-tours button.active, .next-tour .next-tours .detail-album .active.button-buy, .detail-album .next-tour .next-tours .active.button-buy, .next-tour .next-tours .news-categories-standard .list-news li .active.btn-readmore, .news-categories-standard .list-news li .next-tour .next-tours .active.btn-readmore, #ajax-load-more .next-tours .beau-button.active, #ajax-load-more .next-tours .active.submit, #ajax-load-more .next-tours .active.button-active, #ajax-load-more .next-tours .active.b-button, #ajax-load-more .next-tours .active.button-border, #ajax-load-more .next-tours .active.button-gradient, #ajax-load-more .next-tours .beau-form .beau-contact li button.active, .beau-form .beau-contact li #ajax-load-more .next-tours button.active, #ajax-load-more .next-tours .form-comment .beau-contact li button.active, .form-comment .beau-contact li #ajax-load-more .next-tours button.active, #ajax-load-more .next-tours .comment-form .active#submit, .comment-form #ajax-load-more .next-tours .active#submit, #ajax-load-more .next-tours .navigation ul#main-nav li.active, .navigation ul#main-nav #ajax-load-more .next-tours li.active, #ajax-load-more .next-tours .detail-album .active.button-buy, .detail-album #ajax-load-more .next-tours .active.button-buy, #ajax-load-more .next-tours .news-categories-standard .list-news li .active.btn-readmore, .news-categories-standard .list-news li #ajax-load-more .next-tours .active.btn-readmore, .parallax-middle h3 span, .news-categories-standard .list-news li .btn-readmore, .news-categories-standard .right-widget.buyproduct ul li .beau-button, .news-categories-standard .right-widget.buyproduct ul li .submit, .news-categories-standard .right-widget.buyproduct ul li .button-active, .news-categories-standard .right-widget.buyproduct ul li .b-button, .news-categories-standard .right-widget.buyproduct ul li .button-border, .news-categories-standard .right-widget.buyproduct ul li .button-gradient, .news-categories-standard .right-widget.buyproduct ul .beau-form .beau-contact li button, .beau-form .beau-contact .news-categories-standard .right-widget.buyproduct ul li button, .news-categories-standard .right-widget.buyproduct ul .form-comment .beau-contact li button, .form-comment .beau-contact .news-categories-standard .right-widget.buyproduct ul li button, .news-categories-standard .right-widget.buyproduct .navigation ul#main-nav li li:hover, .navigation .news-categories-standard .right-widget.buyproduct ul#main-nav li li:hover, .news-categories-standard .right-widget.buyproduct ul li .detail-album .button-buy, .detail-album .news-categories-standard .right-widget.buyproduct ul li .button-buy, .news-categories-standard .right-widget.buyproduct ul .list-news li .btn-readmore, .news-categories-standard .list-news .right-widget.buyproduct ul li .btn-readmore, .news-categories-standard .right-widget.tags a:hover, .news-categories-standard .right-widget .tagcloud a:hover, .woocommerce #respond input#submit {
+  background: #cdaf87;
+}
+
+.next-tour .next-tours .next-tours-items .row:hover, .next-tour .next-tours #ajax-load-more .row:hover, #ajax-load-more .next-tours .next-tours-items .row:hover, #ajax-load-more .next-tours #ajax-load-more .row:hover {
+  border-color: #cdaf87;
+}

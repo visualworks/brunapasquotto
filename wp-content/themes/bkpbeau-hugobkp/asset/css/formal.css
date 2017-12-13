@@ -1,0 +1,238 @@
+/* --------------------------------
+
+Formal style
+
+-------------------------------- */
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*:focus {
+  outline: none;
+  outline-style: none; }
+
+a {
+  color: #cf2226; }
+
+  a:hover {
+    color: #cf2226; }
+
+/*Change pagging slider and bullet*/
+.paging-slider .swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #cf2226 !important; }
+
+  .paging-slider .swiper-pagination-bullet:hover, .paging-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1; }
+
+.hover, .feature-news .beau-features .feature-list li:hover {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.5); }
+
+
+/*Change background of button on formal page*/
+.button-gradient {
+  background: #cf2226; }
+
+
+/*Css change background of player*/
+.jp-audio .jp-progress .jp-seek-bar .jp-play-bar {
+  background: #cf2226; }
+
+.news-categories-standard .list-news li .btn-readmore {
+  background: #cf2226; }
+.news-categories-standard .right-widget.buyproduct ul li .beau-button {
+  background: #cf2226; }
+.news-categories-standard .right-widget.tags a:hover, .news-categories-standard .right-widget .tagcloud a:hover {
+  background: #cf2226; }
+
+
+/*Css for change tags list hover on formal*/
+.beau-tags ul:first-child li a:hover {
+  background: #cf2226; }
+
+
+/*Change description font*/
+.description h2 {
+  font-family: 'Playfair Display', serif; }
+
+
+/*Change something for top slider and navigation*/
+.top-slider .beau-player {
+  font-family: 'Roboto', sans-serif; }
+
+
+/*Chage navigation and item style*/
+.navigation ul#main-nav li.active, .navigation ul#main-nav li.current-menu-item {
+  background: #cf2226; }
+.navigation ul#main-nav li:hover {
+  background: transparent;
+  border-color: #959595; }
+.navigation ul#main-nav li ul li a:hover, .navigation ul#main-nav li ul li a:hover:hover, .navigation ul#main-nav li ul li:hover a:hover, .navigation ul#main-nav li ul li:hover a:hover:hover, .navigation ul#main-nav li ul.current-menu-item a:hover, .navigation ul#main-nav li ul.current-menu-item a:hover:hover {
+  border-color: #cf2226;
+  color: #cf2226 !important; }
+.navigation ul.social li a:hover {
+  color: #cf2226; }
+
+
+/*Change background parallax style*/
+.parallax-middle h3 span {
+  background: #cf2226; }
+
+  .parallax-middle h3 span i {
+    color: #fff; }
+
+/*Detail album with other background and background color */
+.detail-album .album-icon .disk {
+  background: url(../images/disk-formal.png) no-repeat center center; }
+.detail-album .button-buy {
+  background: #cf2226; }
+
+
+/*Change list album style*/
+.list-albums .list-feature li .album-icon .disk {
+  background: url(../images/disk-formal.png) no-repeat center center; }
+.list-albums .list-feature li .name p {
+  color: #959595; }
+
+
+/*Change next tour color and border color, font*/
+.next-tour .next-tours .next-tours-items .row, #ajax-load-more .next-tours .next-tours-items .row {
+  border-top: 1px solid #deddcf; }
+
+  .next-tour .next-tours .next-tours-items .row:hover, #ajax-load-more .next-tours .next-tours-items .row:hover {
+    border-color: #cf2226; }
+
+  .next-tour .next-tours .next-tours-items .row ul li, #ajax-load-more .next-tours .next-tours-items .row ul li {
+    font-family: 'Roboto', sans-serif; }
+
+    .next-tour .next-tours .next-tours-items .row ul li span, #ajax-load-more .next-tours .next-tours-items .row ul li span {
+      font-family: 'Roboto', sans-serif; }
+.next-tour .beau-button.active, #ajax-load-more .beau-button.active {
+  background: #cf2226 !important; }
+.next-tour .beau-button.cancel, #ajax-load-more .beau-button.cancel {
+  background: #deddcf !important;
+  color: #fff; }
+.next-tour .beau-button.soldout, #ajax-load-more .beau-button.soldout {
+  background: #fff !important; }
+.next-tour .view-more, .next-tour .alm-loadmore-btn, .next-tour #load-more, #ajax-load-more .view-more, #ajax-load-more .alm-loadmore-btn, #ajax-load-more #load-more {
+  color: #cf2226; }
+.next-tour .next-event .next-event-in li p, #ajax-load-more .next-event .next-event-in li p {
+  font-family: 'Roboto', sans-serif; }
+.next-tour .next-event .next-event-in li:first-child h3, #ajax-load-more .next-event .next-event-in li:first-child h3 {
+  font-family: 'Playfair Display', serif; }
+
+
+/*Change parallax style*/
+.parallax-middle h3 span {
+  background: #cf2226; }
+.parallax-middle p {
+  font-family: 'Roboto', sans-serif; }
+
+  .parallax-middle p strong {
+    font-weight: bold; }
+
+  .parallax-middle p a {
+    color: #cf2226; }
+
+
+/*Change color of name, message and logo twitter*/
+.name-twitter .logo-twitter {
+  color: #cf2226; }
+
+.twitter-message .message {
+  font-family: 'Playfair Display', serif;
+  font-style: italic; }
+
+.feature-news .beau-features .feature-list li {
+  background: #fff;
+  font-family: 'Roboto', sans-serif; }
+
+  .feature-news .beau-features .feature-list li span .beau-arrow {
+    width: 0px;
+    height: 0px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #fff; }
+
+  .feature-news .beau-features .feature-list li span.time-up, .feature-news .beau-features .feature-list li span p {
+    font-family: 'Roboto', sans-serif; }
+
+
+
+/*Change gallery style */
+.gallery .gallery-category li {
+  border-color: #deddcf; }
+
+  .gallery .gallery-category li:hover, .gallery .gallery-category li.active {
+    border-color: #df7529; }
+.gallery .contain-gallery .swiper-container .swiper-slide {
+  border-color: #deddcf; }
+
+  .gallery .contain-gallery .swiper-container .swiper-slide:hover {
+    border-color: #df7529; }
+
+.our-member .contain-member .swiper-container .swiper-wrapper {
+  border-color: #3b3b3b; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .avatar ul li a:hover {
+    color: #cf2226; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info h3 {
+    color: #252525;
+    font-family: 'Roboto', sans-serif; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #959595; }
+
+.contactform .beau-form .beau-contact li input, .contactform .beau-form .beau-contact li textarea {
+  font-family: 'Roboto', sans-serif; }
+
+  .contactform .beau-form .beau-contact li input:focus, .contactform .beau-form .beau-contact li textarea:focus {
+    border-color: #cf2226; }
+.contactform .beau-form .beau-contact li button {
+  font-family: 'Roboto', sans-serif;
+  background: #cf2226; }
+
+
+/*Chage footer style, font on formal*/
+footer .top-footer .footer-widget {
+  margin-top: 60px; }
+
+  footer .top-footer .footer-widget h3 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 30px; }
+
+  footer .top-footer .footer-widget ul {
+    float: left;
+    padding-left: 12px;
+    margin-bottom: 0; }
+
+    footer .top-footer .footer-widget ul li {
+      line-height: 30px;
+      color: #959595;
+      font-family: 'Roboto', sans-serif; }
+
+      footer .top-footer .footer-widget ul li a {
+        color: #959595; }
+
+        footer .top-footer .footer-widget ul li a:hover {
+          color: #cf2226; }
+
+  footer .top-footer .footer-widget.instagram p a {
+    color: #cf2226;
+    font-family: 'Roboto', sans-serif; }
+footer .bottom-footer {
+  font-family: 'Roboto', sans-serif; }
+
+  footer .bottom-footer a:hover {
+    color: #cf2226; }

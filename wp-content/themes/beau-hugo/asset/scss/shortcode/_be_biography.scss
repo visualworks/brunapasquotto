@@ -1,0 +1,104 @@
+/*Short code Biography*/
+.hugo-biography{
+    float: left;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding-bottom: 60px;
+}
+.hugo-main-dj{
+    float: right;
+    position: relative;
+
+}
+.dj-description-title{
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: $Ag;
+    @include font-size(48px);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.shortcode-avatar, .shortcode-description {
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.shortcode-description {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+.dj-avatar{
+    float: right;
+    width: 470px;
+    height: 620px;
+    position: relative;
+    @include RP(M){
+        width: 275px;
+        height: 554px;
+        margin-top: 160px;
+    }
+    @include RP(S){
+        margin-top: 0px;
+        height: 395px;
+    }
+    &:before{
+        content:"";
+        background: url(../images/stroke.png) no-repeat center center;
+        width: 470px;
+        height: 620px;
+        @include transition;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        @include RP(M){
+            background-size: 275px auto;
+            width: 275px;
+            height: 363px;
+        }
+        @include RP(S){
+            left: 20px;
+        }
+    }
+    img{
+        position: relative;
+        width: 470px;
+        height: auto;
+        height: auto;
+        top: 60px;
+        left: -100px;
+        @include transition;
+        @include RP(M){
+            width: 275px;
+            top: 30px;
+            left: -35px;
+        }
+        @include RP(S){
+            top: 20px;
+            left: -10px;
+        }
+    }
+    &:hover{
+        @include MQ(T){
+            &:before{
+                top: 10px;
+                left: -20px;
+                @include RP(M){
+
+                }
+            }
+            img{
+                top:50px;
+                left:-90px;
+            }
+        }
+    }
+}
+.shortcode-description{
+    font-weight: 300;
+    @include font-size(18px);
+    p{
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+}

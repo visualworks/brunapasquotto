@@ -1,0 +1,34 @@
+.beau-list-istagram{
+    list-style: none;
+    padding-left: 0!important;
+    margin-top: 10px;
+    li{
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 75px;
+        height: 75px;
+        overflow: hidden;
+        @include RP(MD){
+            @include MQ(T){
+                height: 60px;
+                width: 60px;
+            }
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+}
+.beau-instagram-link{
+    i{
+        margin-right: 10px;
+        color: #959595;
+    }
+    a{
+        @include font-size(12px);
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,9 @@
+@if $import == true {
+	@font-face {
+        font-family: 'Conv_againts';
+        src: url('../fonts/againts.eot');
+        src: local('☺'), url('../fonts/againts.woff') format('woff'), url('../fonts/againts.ttf') format('truetype'), url('../fonts/againts.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}

@@ -1,0 +1,339 @@
+@import 'bourbon'; // http://bourbon.io/
+
+@import 'partials/variables'; // colors, fonts etc...
+
+@import 'partials/mixins'; // custom mixins
+
+@import 'partials/layout'; // responsive grid and
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+@font-face {
+    font-family: 'letter_gothicregular';
+    src: url('../fonts/letter_gothic-webfont.eot');
+    src: url('../fonts/letter_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         // url('../fonts/letter_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/letter_gothic-webfont.woff') format('woff'),
+         url('../fonts/letter_gothic-webfont.ttf') format('truetype'),
+         url('../fonts/letter_gothic-webfont.svg#letter_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$leter-font: 'letter_gothicregular';
+body{
+	font-family: $leter-font;
+	font-size: $body-size;
+	overflow-x:hidden;
+	position: relative;
+	@include font-smoothing;
+	a{
+		color: #1ba3d9;
+	}
+	*{
+		&:focus{
+			outline: none;
+			outline-style: none;
+		}
+	}
+	#beau-go-top{
+		background-color: #000;
+		color:#fff;
+		box-shadow: 1px 1px 10px rgba(#000, 0.3);
+		&:hover{
+			box-shadow: 1px 1px 10px rgba(#000, 0.8);
+		}
+	}
+	// .control-slider{
+	// 	color: #fff;
+	// 	&.swiper-button-disabled{
+	// 		color: #000;
+	// 	}
+	// }
+	.paging-slider{
+		.swiper-pagination-bullet{
+			opacity: 0.5;
+			background-color: #df7529!important;
+			&:hover, &.swiper-pagination-bullet-active{
+				opacity: 1!important;
+			}
+		}
+	}
+	.hover{
+		box-shadow:1px 2px 30px rgba(#000, 0.5);
+	}
+}
+//Css for section and body
+.background-dark{
+	background: #bae9e6;
+}
+.background-light{
+	background: #f7f6e6;
+}
+section{
+	background-color: #bae9e6;
+	.description{
+		h2{
+			// color:#fff;
+			font-family: $leter-font;
+		}
+	}
+	&.top-slider{
+
+	}
+	//For navigation
+	&.navigation{
+		background: #fff;
+		border-color: #fff;
+		ul{
+			&#main-nav{
+				li{
+					&.active{
+						background: #df7529;
+					}
+					&:hover{
+						background: transparent;
+						border-color: #959595;
+					}
+				}
+			}
+		}
+	}
+	//For feature Music Albums
+	&.feature-albums{
+		@extend .background-dark;
+		.list-albums{
+			.list-feature{
+				li{
+					.album-icon{
+						.disk{
+							background: url(../images/pastel-disk.png) no-repeat center center;
+						}
+					}
+					.name{
+						h3{
+							// color: #fff;
+						}
+						p{
+							color: #959595;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.next-tour{
+		@extend .background-light;
+		.next-tours{
+			.next-tours-items{
+				.row{
+					border-top: 1px solid #deddcf;
+					&:hover{
+						border-color: #000;
+					}
+					ul{
+						li{
+							span{
+								font-family: $Ro;
+							}
+							.beau-button{
+								&.active{
+									background: #df7529;
+								}
+								&.cancel{
+									background: #deddcf;
+									color: #fff;
+								}
+								&.soldout{
+									background: #f7f6e6;
+								}
+							}
+						}
+					}
+				}
+			}
+			.view-more{
+				color:#df7529;
+			}
+		}
+		.next-event{
+			.next-event-in{
+				li{
+					h3{
+						font-family: $leter-font;
+					}
+					p{
+						font-family: $Ro;
+					}
+				}
+			}
+		}
+
+	}
+	&.parallax{
+		.container{
+			.parallax-middle{
+				h3{
+					span{
+						background: #df7529;
+					}
+				}
+				p{
+					font-family: $Ro;
+					strong{
+						font-weight: bold;
+					}
+					a{
+						color: #df7529;
+					}
+				}
+			}
+		}
+		&.video-parallax{
+			background-image: url(../images/pastel-video.png);
+		}
+		&.twitter-parallax{
+			background-image: url(../images/pastel-twitter.png);
+			.name-twitter{
+				.logo-twitter{
+					color: #df7529;
+				}
+			}
+		}
+	}
+	&.feature-news{
+		@extend .background-dark;
+		.beau-features{
+			.feature-news{
+				li{
+					background: #fff;
+					span{
+						// color: #fff;
+						.beau-arrow{
+							@include arrow(left,50px,#fff);
+						}
+						&.time-up,p{
+							font-family: $Ro;
+						}
+					}
+					&:hover{
+						@extend .hover;
+					}
+
+				}
+			}
+		}
+	}
+
+	//Css for gallery section
+	&.gallery{
+		@extend .background-light;
+		.gallery-category{
+			li{
+				border-color: #deddcf;
+				&:hover, &.active{
+					border-color: #df7529;
+				}
+			}
+		}
+		.contain-gallery{
+			.swiper-container{
+				.swiper-slide{
+					border-color: #deddcf;
+					&:hover{
+						border-color: #df7529;
+					}
+				}
+			}
+		}
+	}
+	//Css for our member section
+	&.our-member{
+		@extend .background-light;
+		.contain-member{
+			.swiper-container{
+				.swiper-wrapper{
+					border-color: #3b3b3b;
+					.swiper-slide{
+						.info{
+							h3{
+								color: #252525;
+							}
+							p{
+								font-style: italic;
+								color: #959595;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	&.contactform{
+		@extend .background-dark;
+		border-color: #bae9e6;
+		.beau-form{
+			.beau-contact{
+				li{
+					input, textarea{
+						&:focus{
+							border-color: #df7529;
+						}
+					}
+					button{
+						background: #df7529;
+					}
+				}
+			}
+		}
+	}
+}
+footer{
+	.top-footer{
+		border-color: #f7f6e6;
+		@extend .background-light;
+		.footer-widget{
+			margin-top: $base-line*2;
+			h3{
+				font-weight: bold;
+				margin-top: 0;
+				color: #df7529;
+				text-transform: uppercase;
+				line-height: $base-line;
+				margin-bottom: $base-line;
+			}
+			ul{
+				float: left;
+				padding-left: 12px;
+				margin-bottom: 0;
+				li{
+					line-height: $base-line;
+					color: #959595;
+					font-family: $Ro;
+					a{
+						color: #959595;
+						&:hover{
+							color: #df7529;
+						}
+					}
+				}
+			}
+			&.instagram{
+
+				p{
+					a{
+						color: #df7529;
+						font-family: $Ro;
+					}
+				}
+			}
+		}
+	}
+	.bottom-footer{
+		background: #fff;
+		font-family: $Ro;
+	}
+}

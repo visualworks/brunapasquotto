@@ -1,0 +1,260 @@
+/* --------------------------------
+
+Pastel style
+
+-------------------------------- */
+/*Import new font for pastel style*/
+@font-face {
+  font-family: 'letter_gothicregular';
+  src: url('../fonts/letter_gothic-webfont.eot');
+  src: url('../fonts/letter_gothic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/letter_gothic-webfont.woff') format('woff'), url('../fonts/letter_gothic-webfont.ttf') format('truetype'), url('../fonts/letter_gothic-webfont.svg#letter_gothicregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'letter_gothicregular' !important;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*:focus {
+  outline: none;
+  outline-style: none; }
+
+a {
+  color: #df7529; }
+
+  a:hover {
+    color: #df7529; }
+
+/*Change color and shadown for go top sytle*/
+#beau-go-top {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
+
+  #beau-go-top:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8); }
+
+
+/*Css for pagging slider style*/
+.paging-slider .swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #df7529 !important; }
+
+  .paging-slider .swiper-pagination-bullet:hover, .paging-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1 !important; }
+
+.hover, .feature-news .beau-features .feature-list li:hover {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.5); }
+
+
+/*Style for background dark*/
+.background-dark {
+  background: #bae9e6; }
+
+.background-light, footer .top-footer {
+  background: #f7f6e6; }
+
+.button-gradient {
+  background: #df7529; }
+
+
+/*Change player style*/
+.jp-audio .jp-progress .jp-seek-bar .jp-play-bar {
+  background: #fff; }
+
+
+/*Change formal tag background*/
+.beau-tags ul:first-child li a:hover {
+  background: #df7529; }
+
+.description h2 {
+  font-family: 'letter_gothicregular'; }
+
+
+/*Chagne navigation style*/
+.navigation {
+  background: #fff;
+  border-color: #fff; }
+
+  .navigation ul#main-nav li.active, .navigation ul#main-nav li.current-menu-item {
+    background: #df7529; }
+
+  .navigation ul#main-nav li:hover {
+    background: transparent;
+    border-color: #959595; }
+
+  .navigation ul#main-nav li ul li a:hover, .navigation ul#main-nav li ul li a:hover:hover, .navigation ul#main-nav li ul li:hover a:hover, .navigation ul#main-nav li ul li:hover a:hover:hover, .navigation ul#main-nav li ul.current-menu-item a:hover, .navigation ul#main-nav li ul.current-menu-item a:hover:hover {
+    border-color: #df7529;
+    color: #df7529 !important; }
+
+
+/*Change parallax midder*/
+.parallax-middle h3 span {
+  background: #df7529; }
+
+  .parallax-middle h3 span i {
+    color: #fff; }
+
+
+/*Change category standard background one of style new page*/
+.news-categories-standard .list-news li .btn-readmore {
+  background: #df7529; }
+.news-categories-standard .right-widget.buyproduct ul li .beau-button {
+  background: #df7529; }
+.news-categories-standard .right-widget.tags a:hover, .news-categories-standard .right-widget .tagcloud a:hover {
+  background: #df7529; }
+
+
+/*Change albuns style on pastel*/
+.detail-album .album-icon .disk {
+  background: url(../images/pastel-disk.png) no-repeat center center; }
+.detail-album .button-buy {
+  background: #df7529; }
+
+
+/*Change list album and list feature style*/
+.list-albums .list-feature li .album-icon .disk {
+  background: url(../images/pastel-disk.png) no-repeat center center; }
+.list-albums .list-feature li .name p {
+  color: #959595; }
+
+
+
+/* Change next tour and ticket style*/
+.next-tour .next-tours .next-tours-items .row, #ajax-load-more .next-tours .next-tours-items .row {
+  border-top: 1px solid #deddcf; }
+
+  .next-tour .next-tours .next-tours-items .row:hover, #ajax-load-more .next-tours .next-tours-items .row:hover {
+    border-color: #000; }
+
+  .next-tour .next-tours .next-tours-items .row ul li span, #ajax-load-more .next-tours .next-tours-items .row ul li span {
+    font-family: 'Roboto', sans-serif; }
+.next-tour .beau-button.active, .next-tour .beau-button.btn-active, #ajax-load-more .beau-button.active, #ajax-load-more .beau-button.btn-active {
+  background: #df7529 !important; }
+.next-tour .beau-button.btn-cancel, #ajax-load-more .beau-button.btn-cancel {
+  background: #deddcf !important;
+  color: #fff; }
+.next-tour .beau-button.btn-soldout, #ajax-load-more .beau-button.btn-soldout {
+  background: #f7f6e6 !important; }
+.next-tour .view-more, .next-tour .alm-loadmore-btn, .next-tour #load-more, #ajax-load-more .view-more, #ajax-load-more .alm-loadmore-btn, #ajax-load-more #load-more {
+  color: #df7529; }
+.next-tour .next-event .next-event-in li h3, #ajax-load-more .next-event .next-event-in li h3 {
+  font-family: 'letter_gothicregular'; }
+.next-tour .next-event .next-event-in li p, #ajax-load-more .next-event .next-event-in li p {
+  font-family: 'Roboto', sans-serif; }
+
+
+
+/*Change parallax style on pastel*/
+.parallax-middle h3 span {
+  background: #df7529; }
+.parallax-middle p {
+  font-family: 'Roboto', sans-serif; }
+
+  .parallax-middle p strong {
+    font-weight: bold; }
+
+  .parallax-middle p a {
+    color: #df7529; }
+
+
+/*Change color of logo twitter*/
+.name-twitter .logo-twitter {
+  color: #df7529; }
+
+
+/*Change background color of feature list*/
+.feature-news .beau-features .feature-list li {
+  background: #fff; }
+
+  .feature-news .beau-features .feature-list li span .beau-arrow {
+    width: 0px;
+    height: 0px;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #fff; }
+
+  .feature-news .beau-features .feature-list li span.time-up, .feature-news .beau-features .feature-list li span p {
+    font-family: 'Roboto', sans-serif; }
+
+
+/*Change gallery border color*/
+.gallery .gallery-category li {
+  border-color: #deddcf; }
+
+  .gallery .gallery-category li:hover, .gallery .gallery-category li.active {
+    border-color: #df7529; }
+.gallery .contain-gallery .swiper-container .swiper-slide {
+  border-color: #deddcf; }
+
+  .gallery .contain-gallery .swiper-container .swiper-slide:hover {
+    border-color: #df7529; }
+
+.our-member .contain-member .swiper-container .swiper-wrapper {
+  border-color: #3b3b3b; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info h3 {
+    color: #252525; }
+
+  .our-member .contain-member .swiper-container .swiper-wrapper .swiper-slide .info p {
+    font-style: italic;
+    color: #959595; }
+
+
+/*Change contact form input border color*/
+.contactform .beau-form .beau-contact li input:focus, .contactform .beau-form .beau-contact li textarea:focus {
+  border-color: #df7529; }
+.contactform .beau-form .beau-contact li button {
+  background: #df7529; }
+
+
+/*Change detail album*/
+.detail-album {
+  background: #f7f6e6; }
+
+/*Change background related albums*/
+.hugo-related-albums {
+  background: #bae9e6; }
+
+
+/*Change footer border color*/
+footer .top-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+  footer .top-footer .footer-widget {
+    margin-top: 60px; }
+
+    footer .top-footer .footer-widget h3 {
+      font-weight: bold;
+      margin-top: 0;
+      color: #df7529;
+      text-transform: uppercase;
+      line-height: 30px;
+      margin-bottom: 30px; }
+
+    footer .top-footer .footer-widget ul {
+      float: left;
+      padding-left: 12px;
+      margin-bottom: 0; }
+
+      footer .top-footer .footer-widget ul li {
+        line-height: 30px;
+        color: #959595;
+        font-family: 'Roboto', sans-serif; }
+
+        footer .top-footer .footer-widget ul li a {
+          color: #959595; }
+
+          footer .top-footer .footer-widget ul li a:hover {
+            color: #df7529; }
+
+    footer .top-footer .footer-widget.instagram p a {
+      color: #df7529;
+      font-family: 'Roboto', sans-serif; }
+footer .bottom-footer {
+  background: #fff;
+  font-family: 'Roboto', sans-serif; }
